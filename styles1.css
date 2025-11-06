@@ -1,0 +1,45 @@
+.page{
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
+body{
+        background-color: lab(52.82% 34.87 54.05);
+}
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    margin:5px;
+    height: 75px;
+    width: 100%;
+    background-color: #ee9f28;
+}
+  
+.main {
+    margin: 5px;
+    height:200px;
+    width: 100%;
+    background-color: #eebd4d;
+}
+.grid-container{
+    margin: 10px;
+    height: 500px;
+    width:70%;
+    justify-self: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+}
+
+.column-one, .column-two {
+    background-color: hwb(39 65% 0%);
+    padding: 15px;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #ffffbd;
+}
